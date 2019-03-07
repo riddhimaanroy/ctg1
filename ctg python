@@ -1,0 +1,5 @@
+pca = decomposition.PCA()
+from sklearn.preprocessing import StandardScaler
+scaler=StandardScaler()
+scaler.fit(ctg1)
+scaled_ctg1 = scaler.transform(ctg1)
